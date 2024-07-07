@@ -1,0 +1,15 @@
+/project-root
+  /css
+    - styles.css
+  /js
+    - script.js
+  /images
+    - logo.png
+    - gallery1.jpg
+    - gallery2.jpg
+  /index.html
+  /about.html
+  /classes.html
+  /contact.html
+
+  

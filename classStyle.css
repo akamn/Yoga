@@ -1,0 +1,123 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  #classes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .class {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .class h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .class p {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  
+  /* ================== */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+  }
+  
+  main {
+    flex: 1; /* Allow main content to expand and push footer to the bottom */
+  }
+  
+  footer {
+    background-color: #372d2d;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  /* =========================================== */
+
+
+#classes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .class {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .class img {
+    width: 100%; /* Ensures the image fills its container */
+    border-radius: 8px 8px 0 0; /* Rounded corners on top only */
+    object-fit: cover; /* Maintain aspect ratio */
+    height: 200px; /* Adjust height as needed */
+  }
+  
+  .class h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .class p {
+    font-size: 1rem;
+    color: #666;
+  }

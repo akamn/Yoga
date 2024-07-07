@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+/*   
+  #hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  } */
+
+  #hero {
+    background: url('../images/hero.jpg') no-repeat top center; /* Start from the top center */
+    background-size: cover; /* Scale the image to cover the area */
+    height: 60vh; /* Adjust as necessary */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(211, 95, 95); /* Ensure text color is readable against the background */
+    position: relative;
+  overflow: hidden;
+  }
+  /* for typint effect */
+
+
+
+/* ============================================= */
+
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero button {
+    padding: 0.5rem 2rem;
+    background-color: #007bff;
+    color: #100f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #highlights {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .highlight img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+/* Mobile Styles */
+@media (max-width: 600px) {
+    #highlights {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  }
+    
+
+
+
+  
